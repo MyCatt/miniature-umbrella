@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: TheTestMart Framework Documentation
+description: A basic documentation website for TTM Framework
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://mycatt.github.io/miniature-umbrella/
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Template Repository: https://github.com/MyCatt/miniature-umbrella
