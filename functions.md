@@ -61,5 +61,6 @@ This is the field the function will use to try and locate the element.
 #### Iteration
 You might also notice that all functions have an iteration argument, defaulting to 1. This is non-mandatory and is used by the test to control the amount of times it will attempt to perform the function. By default this is 5 times. 
 
-
 You can force a function to only run once by passing the value `4` in this argument.
+
+Warning! Custom functions takes the output of "find_with_template" instead of the `field` string. This method is called from within every native function, and is automatically sent when a custom function is called. 
