@@ -61,4 +61,4 @@ This is the field the function will use to try and locate the element.
 You might also notice that all functions have an iteration argument, defaulting to 1. This is non-mandatory and is used by the test to control the amount of times it will attempt to perform the function. By default this is 5 times. 
 
 
-You can force a function to only run once by passing the value `4` in the arguments.
+You can force a function to only run once by passing the value `4` in this argument.
