@@ -63,4 +63,5 @@ You might also notice that all functions have an iteration argument, defaulting 
 
 You can force a function to only run once by passing the value `4` in this argument.
 
-Warning! Custom functions takes the output of "find_with_template" instead of the `field` string. This method is called from within every native function, and is automatically sent when a custom function is called. 
+**Warning!**
+Custom functions takes the output of `find_with_template()` instead of the `field` string. This method is called from within every native function, and is automatically sent when a custom function is called. For more information on `find_with_template()`, see [SOON TO BE REPLACED WITH LOCATOR CLASS].
