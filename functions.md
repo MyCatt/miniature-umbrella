@@ -3,13 +3,20 @@ title: Functions
 layout: home
 nav_order: 2
 ---
-
+# Functions
 Functions are scripts that take an element and interact with it in a specific way. Examples of functions are:
 - enter values
 - click
 - get value
 
-There are two types of functions, native and custom.
+There are two types of functions, native and custom. Both of these can be found in `functions.py` which has them split with comment blocks. Ensure that any new functions are added after the custom functions comment block.
+
+```
+'''
+    Title: Custom Functions
+    Description: Use this for adding/updating custom functions, less likely to break tests by changing these.
+'''
+```
 
 ### Native
 Native functions concists of enter values, click, and get value. These are designed to be the most basic element interactions and will always be the fallback for all custom functions. 
