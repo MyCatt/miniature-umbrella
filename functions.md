@@ -40,9 +40,11 @@ Custom functions, as the name implies, should be used when a native function is 
 From `template.json` you can assign a custom function to any native function. These custom functions will be called in the order that they appear, starting at index `0`. If the function at index `x` fails, then the next specified custom function, index `x + 1` will be executed. If all of these fail the framework will run the native function as a fallback.
 
 ## Arguments
-Each native function requires the following mandatory arguments:
+Each function requires the following mandatory arguments:
 - `framework`
 - `field`
+`enter_values` will also require a `value` to be provided
+
 
 #### Framework    
 This is the framework object and contains a reference to the driver. Framework objects are instantiated at the begginning of a test.
@@ -54,6 +56,9 @@ This is the field the function will use to try and locate the element.
 #### Value
 `enter_values` also requires a value arugment in order to know what data to pass into the discovered field.
 
+### Additional Arguments
 #### Iteration
 You might also notice that all functions have an iteration argument, defaulting to 1. This is non-mandatory and is used by the test to control the amount of times it will attempt to perform the function. By default this is 5 times. 
+
+
 You can force a function to only run once by passing the value `1` in the arguments.
